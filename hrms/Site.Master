@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body style="background-color:#e7ffe1">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -59,10 +59,14 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <%-- <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer> --%>
+             <hr />
+            <footer style="background-color:#333333">
+                <div>
+                    <p style="color:#ffffff;text-align:center">
+                        All rights are reserved by (n)Code solution, Gandhinagar.
+                    </p>
+                </div>
+            </footer> 
         </div>
 
     </form>
