@@ -1040,7 +1040,7 @@
                         </td></tr>
                      
                         <tr> <td align="left" style="width: 172px">
-                        (v) Physical disability(if any) </strong>
+                        <strong>(v) Physical disability(if any) </strong>
                         </td>
                         <td align="left">&nbsp;&nbsp;
                         <asp:TextBox ID="TextBox26" runat="server" Width="197px"></asp:TextBox>
@@ -1464,16 +1464,13 @@ If yes, please give detail</tr><br />
                             <span id="ctl00_ContentPlaceHolder1_rfvgender" class="redtext" style="color:Red;visibility:hidden;">*</span>
                         </td>
 </table>
-
-
-
         <table id="ctl00_ContentPlaceHolder1_tblOrgDetails" width="100%" border="1" cellpadding="1" cellspacing="1">
      
      <tr>
          
          <td >Name</td>
          <td >Whether in GNFC or NCPL</td>
-         <td >Designation</td>'
+         <td >Designation</td>
          <td >Relationship</td>
          
 
@@ -1663,7 +1660,7 @@ give details in brief</tr><br />
     <tr class="tablehead">
                                     <td align="left" class="tablehead" colspan="3">
                                         <strong class="DETAILSLINK" title=" References (persons metioned shouls hold responsible position and should not be relative)
-                                </tr>"><u>References (persons metioned shouls hold responsible position and should not be relative) </tr><br />
+                                </tr>"><u>(29) References (persons metioned shouls hold responsible position and should not be relative) </tr><br />
 </table>
 
      <table id="ctl00_ContentPlaceHolder1_tblOrgDetails" width="100%" border="1" cellpadding="1" cellspacing="1">
@@ -1758,5 +1755,7 @@ give details in brief</tr><br />
     </table>
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
+    <center>
+        <asp:Button ID="submit" class="btn btn-success" runat="server" Text="Submit" Width="236px" />
+    </center>
 </asp:Content>
