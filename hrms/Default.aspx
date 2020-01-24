@@ -8,6 +8,7 @@
     <style>
       .redtext {
             color: red;
+            font-weight: bold;
       }
       .centerAlign {
           align-content: center;
@@ -1728,8 +1729,8 @@ give details in brief</tr><br />
                             <strong><span class="redtext">* </span>Date : </strong>
                         </td>
                         <td align="left" colspan="3">&nbsp;
-                            <asp:TextBox ID="TextBox58" runat="server" Width="620px"></asp:TextBox>
-                            <asp:RequiredFieldValidator ControlToValidate="presentAddress" ID="RequiredFieldValidator65" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="dateApplication" runat="server" Width="620px"></asp:TextBox>
+                            <asp:RequiredFieldValidator ControlToValidate="dateApplication" ID="RequiredFieldValidator65" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
 &nbsp;</td>
 
                     </tr>
@@ -1737,8 +1738,8 @@ give details in brief</tr><br />
                             <strong><span class="redtext">* </span>Place : </strong>
                         </td>
                         <td align="left">&nbsp;&nbsp;
-                            <asp:TextBox ID="TextBox59" pattern="[A-Za-z]{2,12}" runat="server" Width="188px"></asp:TextBox>
-                            <asp:RequiredFieldValidator ControlToValidate="presentNo" ID="RequiredFieldValidator66" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="placeApplication" pattern="[A-Za-z]{2,12}" runat="server" Width="188px"></asp:TextBox>
+                            <asp:RequiredFieldValidator ControlToValidate="placeApplication" ID="RequiredFieldValidator66" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
                         </td>
                         <td align="right">
                             <strong><span class="redtext">* </span>Signature : </strong>
@@ -1746,8 +1747,8 @@ give details in brief</tr><br />
                         <td align="left">&nbsp;&nbsp;
                             <span id="ctl00_ContentPlaceHolder1_regpin" style="color:Red;visibility:hidden;">*</span>
                            
-                            <asp:TextBox ID="TextBox60" runat="server"></asp:TextBox>
-                            <asp:RequiredFieldValidator ControlToValidate="presentPin" ID="RequiredFieldValidator67" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="signatureApplication" runat="server"></asp:TextBox>
+                            <asp:RequiredFieldValidator ControlToValidate="signatureApplication" ID="RequiredFieldValidator67" runat="server" ErrorMessage=""></asp:RequiredFieldValidator>
                         </td>
 
                     </tr><br />

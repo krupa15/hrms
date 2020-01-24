@@ -1706,13 +1706,13 @@ Partial Public Class _Default
     Protected WithEvents TextBox57 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox58 control.
+    '''dateApplication control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox58 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents dateApplication As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''RequiredFieldValidator65 control.
@@ -1724,13 +1724,13 @@ Partial Public Class _Default
     Protected WithEvents RequiredFieldValidator65 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
-    '''TextBox59 control.
+    '''placeApplication control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox59 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents placeApplication As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''RequiredFieldValidator66 control.
@@ -1742,13 +1742,13 @@ Partial Public Class _Default
     Protected WithEvents RequiredFieldValidator66 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
-    '''TextBox60 control.
+    '''signatureApplication control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox60 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents signatureApplication As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''RequiredFieldValidator67 control.

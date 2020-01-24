@@ -1729,9 +1729,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:hrms._Default._TextBox58">
+<member name="F:hrms._Default._dateApplication">
 <summary>
-TextBox58 control.
+dateApplication control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1747,9 +1747,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:hrms._Default._TextBox59">
+<member name="F:hrms._Default._placeApplication">
 <summary>
-TextBox59 control.
+placeApplication control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1765,9 +1765,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:hrms._Default._TextBox60">
+<member name="F:hrms._Default._signatureApplication">
 <summary>
-TextBox60 control.
+signatureApplication control.
 </summary>
 <remarks>
 Auto-generated field.
