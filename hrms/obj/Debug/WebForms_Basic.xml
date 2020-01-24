@@ -1783,9 +1783,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:hrms._Default._Button1">
+<member name="F:hrms._Default._submit">
 <summary>
-Button1 control.
+submit control.
 </summary>
 <remarks>
 Auto-generated field.
